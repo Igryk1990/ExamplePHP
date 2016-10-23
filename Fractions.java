@@ -1,8 +1,8 @@
-package helllodate;
+package javastudy;
 
 import java.util.Scanner;
 
-public class Fractions extends HelloDate{
+public class Fractions {
 	public static void frac (String s, String s1,String s2){
 		String [] myArray = s.split("/");
 		int a = Integer.parseInt(myArray[0]);
@@ -30,20 +30,20 @@ public class Fractions extends HelloDate{
 			zn = b*c;
 		break;
 		default:
-			System.out.println("Вы не ввели требуемую операцию )))");
+			System.out.println("You have entered an incorrect operation )))");
 		}
-		System.out.println("Полученная дробь");
+		System.out.println("The resulting fraction");
 		System.out.println(ch+"/"+zn);
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Введите первую дробь (например в виде 1/2)");
+		System.out.println("Enter the firs fraction (for example: 1/2)");
 		Scanner scan = new Scanner(System.in);
 		String s = scan.nextLine();
-		System.out.println("Введите требуемую операцию(+,-,*,/)");
+		System.out.println("Enter the desired operation(+,-,*,/)");
 		Scanner scan1 = new Scanner(System.in);
 		String s1 = scan1.nextLine();
-		System.out.println("Введите вторую дробь");
+		System.out.println("Enter the second fraction");
 		Scanner scan2 = new Scanner(System.in);
 		String s2 = scan.nextLine();
 		frac(s,s1,s2);
