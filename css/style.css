@@ -1,0 +1,24 @@
+body{
+	background-color:silver;
+}
+#message{
+	border-radius: 10px;
+	padding:5px;
+}
+#send{
+	border-radius: 5px;
+}
+button{
+	border-radius: 5px;
+}
+input{
+	border-radius:8px;
+	padding:5px;
+	
+}
+textarea:focus, input:focus{
+	outline: none;
+}
+a{
+	font-family:Comic Sans MS;
+}
