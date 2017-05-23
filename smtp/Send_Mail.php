@@ -9,8 +9,8 @@
 		 $mail->SMTPAuth   = true;            
 		 $mail->Host       = "tls://smtp.yandex.ru"; 
 		 $mail->Port       =  465;               
-		 $mail->Username   = "Igoryok27@yandex.ru";  
-		 $mail->Password   = "veronika19902016";
+		 $mail->Username   = "@yandex.ru";  
+		 $mail->Password   = "";
 		 $mail->SetFrom($from, 'Администрация сайта');
 		 $mail->AddReplyTo($from,'Администрация сайта');
 		 $mail->Subject    = $subject;
