@@ -1,7 +1,7 @@
 <?php
 	function Send_Mail($to,$subject,$body){
 		require 'class.phpmailer.php';
-		 $from       = "Igoryok27@yandex.ru";
+		 $from       = "@yandex.ru";
 		 $mail       = new PHPMailer();
 		 $mail->CharSet = "UTF-8";
 		 $mail->IsSMTP(true);  
